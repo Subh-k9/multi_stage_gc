@@ -1,0 +1,104 @@
+nohup: ignoring input
+Using device: cuda:0
+
+Loaded dataset: squirrel
+-------------------
+Number of nodes    : 5201
+Number of edges    : 217073
+Number of features : 2089
+Number of classes  : 5
+Train / Val / Test : 3120 1040 1041
+Edge Homophily: 0.2239
+Coarsening schedule (cumulative % of N remaining): 75.0% -> 50.0%
+Per-level reduction ratios requested        : 25.00%, 33.33%
+Diagonal mass mode: accumulate
+Precomputing feature components (X, A_proj, A_raw, hop)...
+
+=== [squirrel | mode=x_aproj | scheme=hf_adj] ===
+  [stage 1/2] target cum 75.0% of N  |  this-level rr requested 25.00% / achieved 24.63%  |  nodes 3920  (cumulative 75.37% of N)  [cutoff=0.0247329]
+  [stage 2/2] target cum 50.0% of N  |  this-level rr requested 33.33% / achieved 32.78%  |  nodes 2635  (cumulative 50.66% of N)  [cutoff=0.0305779]
+(5201, 5201)
+100
+mean eigen error 3.4981787
+  mean relative eigen error = 3.498179  (76.66s)
+
+=== [squirrel | mode=x_aproj | scheme=hf_adj_1mhf_ax] ===
+  [stage 1/2] target cum 75.0% of N  |  this-level rr requested 25.00% / achieved 25.65%  |  nodes 3867  (cumulative 74.35% of N)  [cutoff=0.0247984]
+  [stage 2/2] target cum 50.0% of N  |  this-level rr requested 33.33% / achieved 32.48%  |  nodes 2611  (cumulative 50.20% of N)  [cutoff=0.0305381]
+(5201, 5201)
+100
+mean eigen error 3.596948
+  mean relative eigen error = 3.596948  (54.87s)
+
+=== [squirrel | mode=x_aproj | scheme=1mhf_adj_hf_ax] ===
+  [stage 1/2] target cum 75.0% of N  |  this-level rr requested 25.00% / achieved 25.69%  |  nodes 3865  (cumulative 74.31% of N)  [cutoff=0.0294441]
+  [stage 2/2] target cum 50.0% of N  |  this-level rr requested 33.33% / achieved 32.94%  |  nodes 2592  (cumulative 49.84% of N)  [cutoff=0.0327894]
+(5201, 5201)
+100
+mean eigen error 3.485366
+  mean relative eigen error = 3.485366  (45.71s)
+
+=== [squirrel | mode=x_a | scheme=hf_adj] ===
+  [stage 1/2] target cum 75.0% of N  |  this-level rr requested 25.00% / achieved 24.42%  |  nodes 3931  (cumulative 75.58% of N)  [cutoff=0.0248982]
+  [stage 2/2] target cum 50.0% of N  |  this-level rr requested 33.33% / achieved 32.71%  |  nodes 2645  (cumulative 50.86% of N)  [cutoff=0.0306745]
+(5201, 5201)
+100
+mean eigen error 3.2251563
+  mean relative eigen error = 3.225156  (63.54s)
+
+=== [squirrel | mode=x_a | scheme=hf_adj_1mhf_ax] ===
+  [stage 1/2] target cum 75.0% of N  |  this-level rr requested 25.00% / achieved 24.88%  |  nodes 3907  (cumulative 75.12% of N)  [cutoff=0.0248425]
+  [stage 2/2] target cum 50.0% of N  |  this-level rr requested 33.33% / achieved 33.12%  |  nodes 2613  (cumulative 50.24% of N)  [cutoff=0.0305823]
+(5201, 5201)
+100
+mean eigen error 3.0034254
+  mean relative eigen error = 3.003425  (119.38s)
+
+=== [squirrel | mode=x_a | scheme=1mhf_adj_hf_ax] ===
+  [stage 1/2] target cum 75.0% of N  |  this-level rr requested 25.00% / achieved 24.76%  |  nodes 3913  (cumulative 75.24% of N)  [cutoff=0.0288685]
+  [stage 2/2] target cum 50.0% of N  |  this-level rr requested 33.33% / achieved 33.48%  |  nodes 2603  (cumulative 50.05% of N)  [cutoff=0.0328862]
+(5201, 5201)
+100
+mean eigen error 2.4121127
+  mean relative eigen error = 2.412113  (76.74s)
+
+=== [squirrel | mode=x_aproj_ax | scheme=hf_adj] ===
+  [stage 1/2] target cum 75.0% of N  |  this-level rr requested 25.00% / achieved 24.84%  |  nodes 3909  (cumulative 75.16% of N)  [cutoff=0.025418]
+  [stage 2/2] target cum 50.0% of N  |  this-level rr requested 33.33% / achieved 32.64%  |  nodes 2633  (cumulative 50.62% of N)  [cutoff=0.0312688]
+(5201, 5201)
+100
+mean eigen error 2.9660194
+  mean relative eigen error = 2.966019  (67.84s)
+
+=== [squirrel | mode=x_aproj_ax | scheme=hf_adj_1mhf_ax] ===
+  [stage 1/2] target cum 75.0% of N  |  this-level rr requested 25.00% / achieved 25.59%  |  nodes 3870  (cumulative 74.41% of N)  [cutoff=0.0286932]
+  [stage 2/2] target cum 50.0% of N  |  this-level rr requested 33.33% / achieved 33.00%  |  nodes 2593  (cumulative 49.86% of N)  [cutoff=0.032686]
+(5201, 5201)
+100
+mean eigen error 2.1078937
+  mean relative eigen error = 2.107894  (45.98s)
+
+=== [squirrel | mode=x_aproj_ax | scheme=1mhf_adj_hf_ax] ===
+  [stage 1/2] target cum 75.0% of N  |  this-level rr requested 25.00% / achieved 24.73%  |  nodes 3915  (cumulative 75.27% of N)  [cutoff=0.0298253]
+  [stage 2/2] target cum 50.0% of N  |  this-level rr requested 33.33% / achieved 33.23%  |  nodes 2614  (cumulative 50.26% of N)  [cutoff=0.0329267]
+(5201, 5201)
+100
+mean eigen error 3.541561
+  mean relative eigen error = 3.541561  (48.87s)
+
+================= SUMMARY =================
+      mode   coeff_scheme  stages  overall_reduction_ratio_pct  mean_relative_eigen_error
+   x_aproj         hf_adj       2                        49.34                   3.498179
+   x_aproj hf_adj_1mhf_ax       2                        49.80                   3.596948
+   x_aproj 1mhf_adj_hf_ax       2                        50.16                   3.485366
+       x_a         hf_adj       2                        49.14                   3.225156
+       x_a hf_adj_1mhf_ax       2                        49.76                   3.003425
+       x_a 1mhf_adj_hf_ax       2                        49.95                   2.412113
+x_aproj_ax         hf_adj       2                        49.38                   2.966019
+x_aproj_ax hf_adj_1mhf_ax       2                        50.14                   2.107894
+x_aproj_ax 1mhf_adj_hf_ax       2                        49.74                   3.541561
+  [warn] could not write xlsx (No module named 'openpyxl'); wrote CSV instead: ./multi_stage_coarsening_results/eigen_results_squirrel.csv
+
+Saved per-dataset results -> ./multi_stage_coarsening_results/eigen_results_squirrel.csv
+  [warn] could not write xlsx (No module named 'openpyxl'); wrote CSV instead: ./multi_stage_coarsening_results/eigen_results_master.csv
+Updated master results     -> ./multi_stage_coarsening_results/eigen_results_master.csv

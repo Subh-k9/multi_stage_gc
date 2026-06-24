@@ -1,0 +1,4 @@
+dataset,homophily,mode,mode_desc,coeff_scheme,hash_norm,coeff_X,coeff_A,coeff_Ax,feature_size,num_nodes,stages,mass_mode,stage_targets_pct,stage_achieved_pct,final_num_nodes,overall_reduction_ratio_pct,num_eigen,mean_relative_eigen_error,std_relative_eigen_error,max_relative_eigen_error,seconds,status
+squirrel,0.2239,x_aproj_ax,"concat(X, A_proj, Ax=A.X)",hf_adj,dot,0.7761,0.2239,0.2239,4434,5201,2,accumulate,"75.0, 50.0","74.41, 50.22",2612,49.78,100,1.9599195623584091,13.925344426694847,139.77308654785156,403.21,ok
+squirrel,0.2239,x_aproj_ax,"concat(X, A_proj, Ax=A.X)",hf_adj_1mhf_ax,dot,0.7761,0.2239,0.7761,4434,5201,2,accumulate,"75.0, 50.0","74.24, 49.18",2558,50.82,100,2.035870828323532,13.715066305902798,136.45184326171875,396.38,ok
+squirrel,0.2239,x_aproj_ax,"concat(X, A_proj, Ax=A.X)",1mhf_adj_hf_ax,dot,0.7761,0.7761,0.2239,4434,5201,2,accumulate,"75.0, 50.0","74.5, 49.64",2582,50.36,100,2.3747675442695617,12.282972414525545,113.463134765625,353.4,ok

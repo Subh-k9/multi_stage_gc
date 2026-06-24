@@ -1,0 +1,10 @@
+dataset,homophily,mode,mode_desc,coeff_scheme,hash_norm,coeff_X,coeff_A,coeff_Ax,feature_size,num_nodes,stages,mass_mode,stage_targets_pct,stage_achieved_pct,final_num_nodes,overall_reduction_ratio_pct,num_eigen,mean_relative_eigen_error,std_relative_eigen_error,max_relative_eigen_error,seconds,status
+Cora,0.81,x_aproj,"concat(X, A_proj)",hf_adj,dot,0.19,0.81,0.81,1689,2708,2,accumulate,"75.0, 50.0","75.0, 50.52",1368,49.48,100,0.45430121595505624,0.1449038406712978,0.6213914155960083,107.46,ok
+Cora,0.81,x_aproj,"concat(X, A_proj)",hf_adj_1mhf_ax,dot,0.19,0.81,0.19,1689,2708,2,accumulate,"75.0, 50.0","75.48, 50.52",1368,49.48,100,0.4447607249766588,0.13946700948912938,0.5924637913703918,98.98,ok
+Cora,0.81,x_aproj,"concat(X, A_proj)",1mhf_adj_hf_ax,dot,0.19,0.19,0.81,1689,2708,2,accumulate,"75.0, 50.0","74.89, 49.78",1348,50.22,100,0.4903924527019262,0.15113520722426146,0.6537384390830994,83.99,ok
+Cora,0.81,x_a,"concat(X, raw A)",hf_adj,dot,0.19,0.81,0.81,4141,2708,2,accumulate,"75.0, 50.0","75.33, 50.04",1355,49.96,100,0.6557047599554062,0.11748229851983301,0.8446239233016968,102.26,ok
+Cora,0.81,x_a,"concat(X, raw A)",hf_adj_1mhf_ax,dot,0.19,0.81,0.19,4141,2708,2,accumulate,"75.0, 50.0","75.11, 49.41",1338,50.59,100,0.6412241563946008,0.10908671793695496,0.7576361894607544,103.41,ok
+Cora,0.81,x_a,"concat(X, raw A)",1mhf_adj_hf_ax,dot,0.19,0.19,0.81,4141,2708,2,accumulate,"75.0, 50.0","75.41, 50.15",1358,49.85,100,0.6440422135591507,0.08613600104418057,0.7801789045333862,74.09,ok
+Cora,0.81,x_aproj_ax,"concat(X, A_proj, Ax=A.X)",hf_adj,dot,0.19,0.81,0.81,3122,2708,2,accumulate,"75.0, 50.0","74.89, 49.41",1338,50.59,100,0.5683154921233654,0.14485010402326493,1.645700454711914,101.37,ok
+Cora,0.81,x_aproj_ax,"concat(X, A_proj, Ax=A.X)",hf_adj_1mhf_ax,dot,0.19,0.81,0.19,3122,2708,2,accumulate,"75.0, 50.0","75.74, 50.92",1379,49.08,100,0.43787271631881597,0.1435430467050577,0.5685510039329529,110.4,ok
+Cora,0.81,x_aproj_ax,"concat(X, A_proj, Ax=A.X)",1mhf_adj_hf_ax,dot,0.19,0.19,0.81,3122,2708,2,accumulate,"75.0, 50.0","74.3, 49.41",1338,50.59,100,0.6323496571183205,0.3550242889584182,2.5851123332977295,107.91,ok
